@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		834DA77229FA1D17001C7825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA77129FA1D17001C7825 /* AppDelegate.swift */; };
 		834DA77429FA1D17001C7825 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA77329FA1D17001C7825 /* SceneDelegate.swift */; };
-		834DA77629FA1D17001C7825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA77529FA1D17001C7825 /* ViewController.swift */; };
+		834DA77629FA1D17001C7825 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA77529FA1D17001C7825 /* HomeViewController.swift */; };
 		834DA77929FA1D17001C7825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834DA77729FA1D17001C7825 /* Main.storyboard */; };
 		834DA77B29FA1D19001C7825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 834DA77A29FA1D19001C7825 /* Assets.xcassets */; };
 		834DA77E29FA1D19001C7825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 834DA77C29FA1D19001C7825 /* LaunchScreen.storyboard */; };
 		834DA78929FA1D19001C7825 /* FirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA78829FA1D19001C7825 /* FirstAppTests.swift */; };
 		834DA79329FA1D19001C7825 /* FirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA79229FA1D19001C7825 /* FirstAppUITests.swift */; };
 		834DA79529FA1D19001C7825 /* FirstAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA79429FA1D19001C7825 /* FirstAppUITestsLaunchTests.swift */; };
+		834DA7A229FA385B001C7825 /* DispatchedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA7A129FA385B001C7825 /* DispatchedTableViewCell.swift */; };
+		834DA7A429FA5519001C7825 /* RobertAtkintsonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA7A329FA5519001C7825 /* RobertAtkintsonViewController.swift */; };
+		834DA7A629FA6DB2001C7825 /* DetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834DA7A529FA6DB2001C7825 /* DetailsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +42,7 @@
 		834DA76E29FA1D17001C7825 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		834DA77129FA1D17001C7825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		834DA77329FA1D17001C7825 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		834DA77529FA1D17001C7825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		834DA77529FA1D17001C7825 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		834DA77829FA1D17001C7825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		834DA77A29FA1D19001C7825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		834DA77D29FA1D19001C7825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		834DA78E29FA1D19001C7825 /* FirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		834DA79229FA1D19001C7825 /* FirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITests.swift; sourceTree = "<group>"; };
 		834DA79429FA1D19001C7825 /* FirstAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		834DA7A129FA385B001C7825 /* DispatchedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchedTableViewCell.swift; sourceTree = "<group>"; };
+		834DA7A329FA5519001C7825 /* RobertAtkintsonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobertAtkintsonViewController.swift; sourceTree = "<group>"; };
+		834DA7A529FA6DB2001C7825 /* DetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +107,11 @@
 			children = (
 				834DA77129FA1D17001C7825 /* AppDelegate.swift */,
 				834DA77329FA1D17001C7825 /* SceneDelegate.swift */,
-				834DA77529FA1D17001C7825 /* ViewController.swift */,
+				834DA77529FA1D17001C7825 /* HomeViewController.swift */,
 				834DA77729FA1D17001C7825 /* Main.storyboard */,
+				834DA7A529FA6DB2001C7825 /* DetailsTableViewCell.swift */,
+				834DA7A129FA385B001C7825 /* DispatchedTableViewCell.swift */,
+				834DA7A329FA5519001C7825 /* RobertAtkintsonViewController.swift */,
 				834DA77A29FA1D19001C7825 /* Assets.xcassets */,
 				834DA77C29FA1D19001C7825 /* LaunchScreen.storyboard */,
 				834DA77F29FA1D19001C7825 /* Info.plist */,
@@ -258,7 +267,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				834DA77629FA1D17001C7825 /* ViewController.swift in Sources */,
+				834DA7A629FA6DB2001C7825 /* DetailsTableViewCell.swift in Sources */,
+				834DA7A429FA5519001C7825 /* RobertAtkintsonViewController.swift in Sources */,
+				834DA7A229FA385B001C7825 /* DispatchedTableViewCell.swift in Sources */,
+				834DA77629FA1D17001C7825 /* HomeViewController.swift in Sources */,
 				834DA77229FA1D17001C7825 /* AppDelegate.swift in Sources */,
 				834DA77429FA1D17001C7825 /* SceneDelegate.swift in Sources */,
 			);
